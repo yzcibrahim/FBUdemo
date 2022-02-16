@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAlgorithms1", "Arrays
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOps", "StringOps\StringOps.csproj", "{009CAC69-A544-4A72-9D5A-25F74E6EC779}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiziAsalSayiOdev", "DiziAsalSayiOdev\DiziAsalSayiOdev.csproj", "{596268EE-F3FC-4C83-9B50-E9E338866D54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{009CAC69-A544-4A72-9D5A-25F74E6EC779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{009CAC69-A544-4A72-9D5A-25F74E6EC779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{009CAC69-A544-4A72-9D5A-25F74E6EC779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596268EE-F3FC-4C83-9B50-E9E338866D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596268EE-F3FC-4C83-9B50-E9E338866D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596268EE-F3FC-4C83-9B50-E9E338866D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596268EE-F3FC-4C83-9B50-E9E338866D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,6 +7,78 @@ namespace DiziAsalSayiOdev
         static void Main(string[] args)
         {
             // soru1AsalSAyi();
+            // odev2EksikBulma();
+            int size = Convert.ToInt32(Console.ReadLine());
+            //  KareCizme(size);
+            // Ucgen(size);
+            Baklava(size);
+
+        }
+
+        private static void Baklava(int size)
+        {
+
+            for(int i=0;i<= size; i++)
+            {
+                Console.Write(i);
+                for(int j=0;j< size - i;j++)
+                {
+                    Console.Write(" ");
+                }
+                
+                for (int k = 0; k < 2 * i + 1; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+            
+            for(int i=0;i<=size;i++)
+            {
+                Console.Write(i);
+                for (int k = 0; k <= i; k++)
+                {
+                    Console.Write(" ");
+                }
+                for(int j=0;j<2*size-(2*i+1);j++)
+                Console.Write("*");
+                Console.WriteLine("");
+            }
+
+
+          
+        }
+
+        private static void Ucgen(int size)
+        {
+            for (int i = 0; i < size; i++)
+            {
+                for (int k = 0; k <= i; k++)
+                {
+                    Console.Write("*");
+
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        private static void KareCizme(int size)
+        {
+            for(int i=0;i<size;i++)
+            {
+                for(int k=0;k<size;k++)
+                {
+                    Console.Write("*");
+
+                }
+                Console.WriteLine("");
+             //   Console.Write("\n");
+               // Console.WriteLine("*****");
+            }
+        }
+
+        private static void odev2EksikBulma()
+        {
             int[] a = new int[10];
             for (int j = 0; j < 10; j++)
                 a[j] = -1;
@@ -26,7 +98,7 @@ namespace DiziAsalSayiOdev
                     Console.WriteLine("SAyı 10 dan küçük olmalıdır.");
                     continue;
                 }
-                if(iceriyorMu(a,sayi))
+                if (iceriyorMu(a, sayi))
                 {
                     Console.WriteLine("SAyı daha önce girilmiş");
                     continue;
@@ -37,7 +109,6 @@ namespace DiziAsalSayiOdev
 
             }
             eksikBul(a);
-
         }
 
         private static void eksikBul(int[] a)

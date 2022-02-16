@@ -6,12 +6,66 @@ namespace DiziAsalSayiOdev
     {
         static void Main(string[] args)
         {
+            //  diziYazdir();
+
+            int X = 6;
+            string ifade  = "";
+
+            #region if vs inline if
+            if (X>5)
+            {
+                ifade = "büyük";
+            }
+            else
+            {
+                ifade = "küçük";           
+            }
+            Console.WriteLine(ifade);
+
+            ifade = X > 5 ? "büyük" : "küçük";
+            Console.WriteLine(ifade);
+            #endregion
+
+            int? nullablaA;
+            
             // soru1AsalSAyi();
             // odev2EksikBulma();
             int size = Convert.ToInt32(Console.ReadLine());
             //  KareCizme(size);
             // Ucgen(size);
             Baklava(size);
+
+            
+
+        }
+
+        private static void diziYazdir()
+        {
+
+            int[] a = new int[] { 1, 2, 3, 4, 5, 6 };
+
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    Console.WriteLine($"{i}.eleman {a[i]}");
+            //}
+
+
+            //for (int i = a.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(a[i]);
+            //}
+            //int i = a.Length - 1;
+            //while (i >= 0)
+            //{
+            //    Console.WriteLine(a[i]);
+            //    i--;
+            //}
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                int index = a.Length - 1 - i;
+                Console.WriteLine(a[index]);
+            }
 
         }
 
@@ -32,21 +86,38 @@ namespace DiziAsalSayiOdev
                 }
                 Console.WriteLine("");
             }
-            
-            for(int i=0;i<=size;i++)
+
+            for (int i = size-1; i >=0; i--)
             {
                 Console.Write(i);
-                for (int k = 0; k <= i; k++)
+                for (int j = 0; j < size - i; j++)
                 {
                     Console.Write(" ");
                 }
-                for(int j=0;j<2*size-(2*i+1);j++)
-                Console.Write("*");
+
+                for (int k = 0; k < 2 * i + 1; k++)
+                {
+                    Console.Write("*");
+                }
                 Console.WriteLine("");
             }
 
 
-          
+
+            //for(int i=0;i<=size;i++)
+            //{
+            //    Console.Write(i);
+            //    for (int k = 0; k <= i; k++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for(int j=0;j<2*size-(2*i+1);j++)
+            //    Console.Write("*");
+            //    Console.WriteLine("");
+            //}
+
+
+
         }
 
         private static void Ucgen(int size)

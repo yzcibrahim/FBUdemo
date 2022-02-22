@@ -2,10 +2,26 @@
 
 namespace DiziAsalSayiOdev
 {
+    public class aClass
+    {
+        public const int deger1=5;
+        public readonly int degerRead = 6;
+        public aClass()
+        {
+            degerRead = 15;
+        }
+    }
     class Program
     {
+        
+
+        const int constVar= 5;
+        readonly int readonlyVar;
         static void Main(string[] args)
         {
+
+            aClass myObject = new aClass();
+            
             //  diziYazdir();
 
             int X = 6;

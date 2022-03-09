@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DiziAsalSayiOdev
 {
@@ -13,6 +14,9 @@ namespace DiziAsalSayiOdev
     }
     class Program
     {
+
+        List<string> asd = new List<string>();
+        List<int> asdf = new List<int>();
         
 
         const int constVar= 5;

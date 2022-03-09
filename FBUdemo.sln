@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBUdemo", "FBUdemo\FBUdemo.csproj", "{51C36003-3656-48FB-95C5-4F4D80D76EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBUdemo", "FBUdemo\FBUdemo.csproj", "{51C36003-3656-48FB-95C5-4F4D80D76EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstrationByInterface", "AbstrationByInterface\AbstrationByInterface.csproj", "{029575A4-E2C7-481C-A419-6D622B128FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstrationByInterface", "AbstrationByInterface\AbstrationByInterface.csproj", "{029575A4-E2C7-481C-A419-6D622B128FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arraysAlgorithms", "arraysAlgorithms\arraysAlgorithms.csproj", "{AD0C0775-9190-47DA-A8EA-15FCCEF95989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arraysAlgorithms", "arraysAlgorithms\arraysAlgorithms.csproj", "{AD0C0775-9190-47DA-A8EA-15FCCEF95989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAlgorithms1", "ArraysAlgorithms1\ArraysAlgorithms1.csproj", "{F3874512-8003-47BC-8FFC-E617FB929D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysAlgorithms1", "ArraysAlgorithms1\ArraysAlgorithms1.csproj", "{F3874512-8003-47BC-8FFC-E617FB929D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOps", "StringOps\StringOps.csproj", "{009CAC69-A544-4A72-9D5A-25F74E6EC779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringOps", "StringOps\StringOps.csproj", "{009CAC69-A544-4A72-9D5A-25F74E6EC779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiziAsalSayiOdev", "DiziAsalSayiOdev\DiziAsalSayiOdev.csproj", "{596268EE-F3FC-4C83-9B50-E9E338866D54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiziAsalSayiOdev", "DiziAsalSayiOdev\DiziAsalSayiOdev.csproj", "{596268EE-F3FC-4C83-9B50-E9E338866D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DI", "DI\DI.csproj", "{027CADD4-123D-4483-A7A3-D6232AD5D840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DI", "DI\DI.csproj", "{027CADD4-123D-4483-A7A3-D6232AD5D840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerRank", "hackerRank\hackerRank.csproj", "{7F77C790-BA87-4B92-B020-577B690BA1CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{027CADD4-123D-4483-A7A3-D6232AD5D840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027CADD4-123D-4483-A7A3-D6232AD5D840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027CADD4-123D-4483-A7A3-D6232AD5D840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F77C790-BA87-4B92-B020-577B690BA1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F77C790-BA87-4B92-B020-577B690BA1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F77C790-BA87-4B92-B020-577B690BA1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F77C790-BA87-4B92-B020-577B690BA1CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
